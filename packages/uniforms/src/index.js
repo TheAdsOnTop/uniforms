@@ -4,8 +4,6 @@ export {default as BaseForm}            from './BaseForm';
 export {default as Bridge}              from './Bridge';
 export {default as GraphQLBridge}       from './GraphQLBridge';
 export {default as QuickForm}           from './QuickForm';
-export {default as SimpleSchema2Bridge} from './SimpleSchema2Bridge';
-export {default as SimpleSchemaBridge}  from './SimpleSchemaBridge';
 export {default as ValidatedForm}       from './ValidatedForm';
 export {default as ValidatedQuickForm}  from './ValidatedQuickForm';
 export {default as changedKeys}         from './changedKeys';

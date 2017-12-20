@@ -1,5 +1,3 @@
-/* global Package */
-
 import cloneDeep from 'lodash/cloneDeep';
 import invariant from 'fbjs/lib/invariant';
 
@@ -7,31 +5,8 @@ import Bridge         from './Bridge';
 import joinName       from './joinName';
 import filterDOMProps from './filterDOMProps';
 
-let Match        = (typeof global === 'object' ? global : window).Match;
-let SimpleSchema = (typeof global === 'object' ? global : window).SimpleSchema;
-
-/* istanbul ignore next */
-try {
-    if (Match === undefined && typeof Package === 'object') {
-        Match = Package['check'].Match;
-    }
-
-    if (SimpleSchema === undefined && typeof Package === 'object') {
-        SimpleSchema = Package['aldeed:simple-schema'].SimpleSchema;
-    }
-} catch (_) { /* Ignore it. */ }
-
-try {
-    const r = require; // Silence Meteor missing module warning
-
-    if (Match === undefined) {
-        Match = r('meteor/check').Match;
-    }
-
-    if (SimpleSchema === undefined) {
-        SimpleSchema = r('meteor/aldeed:simple-schema').SimpleSchema;
-    }
-} catch (_) { /* Ignore it. */ }
+const Match        = (typeof global === 'object' ? global : window).Match;
+const SimpleSchema = (typeof global === 'object' ? global : window).SimpleSchema;
 
 if (SimpleSchema) {
     SimpleSchema.extendOptions({

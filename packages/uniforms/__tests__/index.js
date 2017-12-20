@@ -8,8 +8,6 @@ it('exports everything', () => {
         Bridge:              expect.any(Function),
         GraphQLBridge:       expect.any(Function),
         QuickForm:           expect.any(Function),
-        SimpleSchema2Bridge: expect.any(Function),
-        SimpleSchemaBridge:  expect.any(Function),
         ValidatedForm:       expect.any(Function),
         ValidatedQuickForm:  expect.any(Function),
         changedKeys:         expect.any(Function),
