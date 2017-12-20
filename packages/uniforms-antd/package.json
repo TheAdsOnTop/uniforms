@@ -1,6 +1,6 @@
 {
-  "name": "uniforms-antd",
-  "version": "1.22.2",
+  "name": "@aot/uniforms-antd",
+  "version": "1.22.3",
   "license": "MIT",
   "main": "index.js",
   "description": "Ant Design UI components for uniforms.",

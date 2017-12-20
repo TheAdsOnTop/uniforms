@@ -1,5 +1,5 @@
 {
-  "name": "demo",
+  "name": "@aot/uniforms-demo",
   "private": true,
   "scripts": {
     "start": "meteor run"
@@ -23,5 +23,6 @@
     "uniforms-material": "^1.22.2",
     "uniforms-semantic": "^1.22.2",
     "uniforms-unstyled": "^1.22.2"
-  }
+  },
+  "version": "1.22.3"
 }
