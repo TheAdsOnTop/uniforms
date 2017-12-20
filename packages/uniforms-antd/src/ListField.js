@@ -1,9 +1,9 @@
 import Icon           from 'antd/lib/icon';
 import React          from 'react';
 import Tooltip        from 'antd/lib/tooltip';
-import connectField   from 'uniforms/connectField';
-import filterDOMProps from 'uniforms/filterDOMProps';
-import joinName       from 'uniforms/joinName';
+import connectField   from '@aot/uniforms/connectField';
+import filterDOMProps from '@aot/uniforms/filterDOMProps';
+import joinName       from '@aot/uniforms/joinName';
 import {Children}     from 'react';
 
 import ListAddField  from './ListAddField';

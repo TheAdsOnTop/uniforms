@@ -1,4 +1,4 @@
-import BaseForm from 'uniforms/BaseForm';
+import BaseForm from '@aot/uniforms/BaseForm';
 
 const AntD = parent => class extends parent {
     static AntD = AntD;

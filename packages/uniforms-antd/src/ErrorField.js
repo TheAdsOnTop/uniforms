@@ -1,7 +1,7 @@
 import React          from 'react';
-import connectField   from 'uniforms/connectField';
-import filterDOMProps from 'uniforms/filterDOMProps';
-import nothing        from 'uniforms/nothing';
+import connectField   from '@aot/uniforms/connectField';
+import filterDOMProps from '@aot/uniforms/filterDOMProps';
+import nothing        from '@aot/uniforms/nothing';
 
 const Error = ({children, error, errorMessage, ...props}) =>
     !error ? nothing : (

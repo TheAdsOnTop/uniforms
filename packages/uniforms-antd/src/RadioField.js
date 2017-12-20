@@ -1,7 +1,7 @@
 import Radio          from 'antd/lib/radio';
 import React          from 'react';
-import connectField   from 'uniforms/connectField';
-import filterDOMProps from 'uniforms/filterDOMProps';
+import connectField   from '@aot/uniforms/connectField';
+import filterDOMProps from '@aot/uniforms/filterDOMProps';
 
 import wrapField from './wrapField';
 

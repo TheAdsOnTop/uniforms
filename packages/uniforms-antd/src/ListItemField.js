@@ -1,6 +1,6 @@
 import React        from 'react';
-import connectField from 'uniforms/connectField';
-import joinName     from 'uniforms/joinName';
+import connectField from '@aot/uniforms/connectField';
+import joinName     from '@aot/uniforms/joinName';
 import {Children}   from 'react';
 
 import AutoField    from './AutoField';

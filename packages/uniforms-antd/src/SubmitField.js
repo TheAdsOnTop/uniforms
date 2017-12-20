@@ -1,4 +1,4 @@
-import BaseField from 'uniforms/BaseField';
+import BaseField from '@aot/uniforms/BaseField';
 import Button    from 'antd/lib/button';
 import React     from 'react';
 

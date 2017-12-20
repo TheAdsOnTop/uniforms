@@ -1,7 +1,7 @@
 import Button         from 'antd/lib/button';
 import React          from 'react';
-import connectField   from 'uniforms/connectField';
-import filterDOMProps from 'uniforms/filterDOMProps';
+import connectField   from '@aot/uniforms/connectField';
+import filterDOMProps from '@aot/uniforms/filterDOMProps';
 
 const ListDel = ({
     disabled,

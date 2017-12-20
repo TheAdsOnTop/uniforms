@@ -1,7 +1,7 @@
-import BaseField      from 'uniforms/BaseField';
+import BaseField      from '@aot/uniforms/BaseField';
 import React          from 'react';
-import filterDOMProps from 'uniforms/filterDOMProps';
-import nothing        from 'uniforms/nothing';
+import filterDOMProps from '@aot/uniforms/filterDOMProps';
+import nothing        from '@aot/uniforms/nothing';
 
 export default class HiddenField extends BaseField {
     static displayName = 'HiddenField';
