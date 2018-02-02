@@ -1,3 +1,12 @@
+## [v1.23.0](https://github.com/vazco/uniforms/tree/v1.23.0) (2018-01-12)
+
+## [v1.23.0-rc.2](https://github.com/vazco/uniforms/tree/v1.23.0-rc.2) (2018-01-10)
+- **Changed:** If `onSubmit` rejects, it's treated as a form error.
+- **Fixed:** `form.submit` correctly rejects on validation error.
+
+## [v1.23.0-rc.1](https://github.com/vazco/uniforms/tree/v1.23.0-rc.1) (2017-12-29)
+- **Added:** Support for `antd@3.0.0`. [\#372](https://github.com/vazco/uniforms/issues/372)
+
 ## [v1.22.2](https://github.com/vazco/uniforms/tree/v1.22.2) (2017-12-11)
 - **Fixed:** Passing an empty string to `ListField` and `NestField`. [\#366](https://github.com/vazco/uniforms/issues/366)
 
