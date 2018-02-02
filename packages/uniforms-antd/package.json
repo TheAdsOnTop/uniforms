@@ -1,6 +1,6 @@
 {
   "name": "@aot/uniforms-antd",
-  "version": "1.23.0",
+  "version": "1.23.1",
   "license": "MIT",
   "main": "index.js",
   "description": "Ant Design UI components for uniforms.",
@@ -20,9 +20,9 @@
     "src/"
   ],
   "peerDependencies": {
+    "@aot/uniforms": "^1.23.0",
     "antd": "^3.0.0 || ^2.7.0",
-    "react": "^16.0.0 || ^15.0.0 || ^0.14.0",
-    "@aot/uniforms": "^1.23.0"
+    "react": "^16.0.0 || ^15.0.0 || ^0.14.0"
   },
   "dependencies": {
     "babel-runtime": "^6.20.0",
